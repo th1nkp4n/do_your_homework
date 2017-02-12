@@ -2,11 +2,11 @@
   // Required
   "manifest_version": 2,
   "name": "do_your_homework extension",
-  "version": "versionString",
+  "version": "1.0",
 
   // Recommended
   "default_locale": "en",
-  "description": "Hopefully helps to make your work more productive",
+  "description": "Hopefully we help you be more productive",
   "icons": {...},
 
   // Pick one (or none)
