@@ -7,7 +7,7 @@
   // Recommended
   "default_locale": "en",
   "description": "Hopefully we help you be more productive",
-  "icons": {...},
+  "icons": {"48": "duh-icon.png"},
 
   "browser_action": {
     "default_icon": "icon.png",
