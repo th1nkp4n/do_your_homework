@@ -16,6 +16,6 @@ chrome.alarms.onAlarm.addListener(function(Alarm al) {
       if(al.name.equals("calm")) {
           timeLeft= 1800000;
       } else {
-          //calls bowser action popups
+          //calls browser action popups
       }
 });
