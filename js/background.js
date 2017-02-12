@@ -27,6 +27,9 @@ chrome.browserAction.onAlarm.addListener(function(Alarm al) {
       if(al.name.equals("calm")) {
           timeLeft= 1800000;
       } else {
-          
+          chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+            var activeTab = tabs[0];
+            chrome.tabs.sendMessage(activeTab.id, {"message": "alarm_action"});
+          });
       }
 });
