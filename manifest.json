@@ -58,7 +58,7 @@
   "omnibox": {
     "keyword": "aString"
   },
-  "optional_permissions": ["tabs"],
+  "optional_permissions": ["https://twitter.com", "https://www.tumblr.com", "https://www.facebook.com", "https://www.reddit.com", "https://www.youtube.com"],
   "options_page": "options.html",
   "options_ui": {
     "chrome_style": true,
