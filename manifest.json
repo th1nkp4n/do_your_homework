@@ -7,9 +7,9 @@
     "scripts":[background.js"],
     "persistent": false
   },
-  "content_scripts": [{
+  "alarm_scripts": [{
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": ["alert.js"]
     }
   ]
   // Recommended
@@ -17,9 +17,6 @@
   "description": "Hopefully we help you be more productive",
   "icons": {"48": "duh-icon.png"},
 
-  "browser_action": {
-    "default_popup": "html/status.html",
-  },
   "browser_action": {
     "default_popup": "html/alert.html",
   },
