@@ -4,10 +4,14 @@
   "version": "1.0",
   
   "background":{
-    "scripts":[eventPage.js"],
+    "scripts":[background.js"],
     "persistent": false
   },
-
+  "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
   // Recommended
   "default_locale": "en",
   "description": "Hopefully we help you be more productive",
