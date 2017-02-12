@@ -17,7 +17,7 @@
     "default_name":"Alert"
   },
   "permissions": [
-    "activeTab",
+    "activeTab", "alarms",
     "https://ajax.googleapis.com/"
   ]
 }
