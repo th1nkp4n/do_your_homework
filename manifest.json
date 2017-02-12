@@ -9,11 +9,11 @@
   "icons": {"48": "duh-icon.png"},
 
   "browser_action": {
-    "default_popup": "status.html",
+    "default_popup": "html/status.html",
     "default_name":"Check Status"
   },
   "browser_action": {
-    "default_popup": "alert.html",
+    "default_popup": "html/alert.html",
     "default_name":"Alert"
   },
   "permissions": [
