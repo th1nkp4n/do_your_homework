@@ -1,6 +1,5 @@
 {
   "manifest_version": 2,
-<<<<<<< HEAD
   "name": "do_your_homework extension",
   "version": "1.0",
 
@@ -10,8 +9,12 @@
   "icons": {"48": "duh-icon.png"},
 
   "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_popup": "status.html",
+    "default_name":"Check Status"
+  },
+    "browser_action": {
+    "default_popup": "alert.html",
+    "default_name":"Alert"
   },
   "permissions": [
     "activeTab",
