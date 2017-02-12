@@ -12,7 +12,7 @@
     "default_popup": "status.html",
     "default_name":"Check Status"
   },
-    "browser_action": {
+  "browser_action": {
     "default_popup": "alert.html",
     "default_name":"Alert"
   },
