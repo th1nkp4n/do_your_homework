@@ -1,4 +1,4 @@
-chrome.tabs.onUpdated.addListener("checkUpdate");
+chrome.tabs.onUpdated.addListener(checkUpdate);
 var timeLeft= 1800000;
 function checkUpdate(integer tabId, object changeInfo, Tab tab) {    
     if (changeInfo.contains("buzzfeed") {
@@ -12,10 +12,3 @@ function checkUpdate(integer tabId, object changeInfo, Tab tab) {
     }
     
 }
-chrome.alarms.onAlarm.addListener(function(Alarm al) {
-      if(al.name.equals("calm")) {
-          timeLeft= 1800000;
-      } else {
-          //calls browser action popups
-      }
-});
